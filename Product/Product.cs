@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Product
+namespace ProductClassLibrary
 {
     public class Product
     {
@@ -17,6 +17,12 @@ namespace Product
             Price = 0.00M;
         }
 
+        public Product(string a, string b, decimal c)
+        {
+            Manufacturer = a;
+            Model = b;
+            Price = c;
+        }
 
     }
 }
